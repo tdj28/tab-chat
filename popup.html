@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="marked.min.js"></script>
+  <script src="popup.js" defer></script>
+  <title>tab-chat</title>
+  <style>
+    body { width: 400px; padding: 10px; }
+    #chat { height: 500px; overflow-y: scroll; border: 1px solid #ccc; padding: 5px; margin-bottom: 10px; }
+    #userInput { width: 100%; }
+    .message { margin-bottom: 10px; }
+    .message.user { color: #0000FF; }
+    .message.ai { color: #008000; }
+    .message.system { color: #FF0000; font-style: italic; }
+  </style>
+</head>
+<body>
+  <div id="chat"></div>
+  <input type="text" id="userInput" placeholder="Type your message...">
+  <button id="sendButton">Send</button>
+</body>
+</html>
