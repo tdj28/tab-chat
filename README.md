@@ -1,5 +1,7 @@
 # Tab-Chat: AI-Powered Webpage Content Assistant
 
+![alt text](image.png)
+
 (experimental and under development, use at your own risk)
 
 Tab-Chat is a Chrome extension that allows you to chat with an AI about the content of the webpage you're currently viewing. It uses OpenAI's GPT-4 model to provide intelligent responses based on the page content.
